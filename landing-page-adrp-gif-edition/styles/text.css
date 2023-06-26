@@ -1,0 +1,95 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+.textp{
+    font-family: FreeMono, monospace, sans-serif;
+    font-weight: 800;
+    
+}
+
+.textc{
+    font-family: FreeMono, monospace, sans-serif;
+    font-weight: 200;
+
+    
+}
+
+.format-button{
+    text-decoration: none;
+}
+
+.tittle{
+    text-transform: uppercase;
+}
+
+.subtittle{
+    color: var( --medium);
+    font-weight: 400;
+}
+
+.block{
+    margin-bottom: 120px;
+}
+
+.destaque{
+    text-decoration: none;
+    color: rgb(233, 216, 216);
+}
+
+#social a.destaque {
+    display: block;
+    background: var(--light);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#social a.destaque:hover{
+    background: rgba(192, 4, 83, 0.466);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+
+
+.hero{
+    position: relative;
+    height: 100vh;
+    background: var(--primary-color);
+    overflow: hidden;
+
+}
+
+.hero__video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hero__overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--primary-color);
+    opacity: 20%;
+    z-index: 1;
+}
+
+.hero__content{
+    z-index: 1;
+}

@@ -1,0 +1,99 @@
+
+
+
+a:hover{
+    text-decoration: none;
+}
+
+
+nav{
+    transition: 0.4s;
+}
+
+
+
+
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo{
+    background: url(../imagens/adlogo.png);
+    width: 200px;
+   
+}
+
+.bg-orange{
+    background:
+    linear-gradient(120deg, rgba(6, 6, 27, 0.842)   , rgba(70, 10, 78, 0.986)  );
+
+    ;
+
+
+}
+
+.alinhar-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    
+    padding-left: 3px;
+
+}
+#header.rolagem{
+    background-color: #1c1b2d;
+}
+
+.font2{
+    font-size: 10px;
+    margin-right: 110px ;
+    width: 12px;
+ 
+}
+
+
+
+/*Layout*/
+
+body{
+
+    background:
+                linear-gradient(110deg, #030107f5, #120622),
+                fixed
+
+;
+
+
+                
+}
+
+.btn-perso{
+    background-color:  rgb(122, 119, 119);
+}
+
+
+
+.c-item{
+height: 980px;
+
+}
+
+.c-img{
+height: 100%;
+
+object-fit: cover;
+filter: brightness(0.2)
+}
+
